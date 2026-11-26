@@ -10,7 +10,7 @@ Paste this into Claude Code:
 
 ```text
 Please install the build-then-break skill for Claude Code from this public repo:
-https://github.com/jake-jiffi/build-then-break
+https://github.com/jiffi-co/build-then-break
 
 Install it at the user level so it works in every project, and set it up so you always use it:
 
@@ -50,7 +50,7 @@ Please install it at the user level so it works in every project, and set it up 
 Mac or Linux, in a terminal:
 
 ```sh
-git clone --depth 1 https://github.com/jake-jiffi/build-then-break /tmp/build-then-break
+git clone --depth 1 https://github.com/jiffi-co/build-then-break /tmp/build-then-break
 mkdir -p ~/.claude/skills
 cp -R /tmp/build-then-break/skills/build-then-break ~/.claude/skills/
 rm -rf /tmp/build-then-break
@@ -59,7 +59,7 @@ rm -rf /tmp/build-then-break
 Windows, in PowerShell:
 
 ```powershell
-git clone --depth 1 https://github.com/jake-jiffi/build-then-break "$env:TEMP\build-then-break"
+git clone --depth 1 https://github.com/jiffi-co/build-then-break "$env:TEMP\build-then-break"
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
 Copy-Item -Recurse -Force "$env:TEMP\build-then-break\skills\build-then-break" "$env:USERPROFILE\.claude\skills\"
 Remove-Item -Recurse -Force "$env:TEMP\build-then-break"

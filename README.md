@@ -5,7 +5,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0f063c"></a>
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/works%20with-Claude%20Code-599cff">
-  <a href="https://github.com/jake-jiffi/show-then-build"><img alt="Pairs with show-then-build" src="https://img.shields.io/badge/pairs%20with-show--then--build-d5e6ff"></a>
+  <a href="https://github.com/jiffi-co/show-then-build"><img alt="Pairs with show-then-build" src="https://img.shields.io/badge/pairs%20with-show--then--build-d5e6ff"></a>
   <a href="https://clarityclub.jiffi.co"><img alt="From Jiffi Clarity Club" src="https://img.shields.io/badge/from-Jiffi%20Clarity%20Club-fff58a"></a>
 </p>
 
@@ -19,29 +19,23 @@ You don't need to be a developer to use it. You install it once and it runs in e
 
 ## Install it in a minute
 
-Open Claude Code and paste this in:
+It installs from the builder-kit-lean marketplace. In a terminal:
+
+```bash
+claude plugin marketplace add jiffi-co/builder-kit-lean
+claude plugin install build-then-break@builder-kit-lean
+```
+
+To have Claude Code use it every time, add this section to `~/.claude/CLAUDE.md`:
 
 ```text
-Please install the build-then-break skill for Claude Code from this public repo:
-https://github.com/jake-jiffi/build-then-break
-
-Install it at the user level so it works in every project, and set it up so you always use it:
-
-1. Before you install anything, read the skill's files and tell me in plain English what it does and whether anything in it runs commands or touches my files.
-
-2. Download the repo to a temporary folder (git clone, or the zip from GitHub if git isn't available). Copy its skills/build-then-break folder to ~/.claude/skills/build-then-break/ so SKILL.md sits directly in that folder, with the references/ folder beside it. On Windows, ~ is my user folder. If a build-then-break skill is already there, show me what would change and ask before replacing it. Delete the temporary folder when you're done.
-
-3. Add this section to ~/.claude/CLAUDE.md. If the file doesn't exist, create it. If it does exist, add the section at the end and don't change anything already in it.
-
-   ## Build, then break
-   For any task that writes, edits, refactors, debugs or reviews code, and before calling any plan or analysis done, use the build-then-break skill and follow it. Match effort to the stakes as the skill describes.
-
-4. Show me the final folder structure and the exact section you added to CLAUDE.md, then tell me to start a fresh session so it all loads.
+## Build, then break
+For any task that writes, edits, refactors, debugs or reviews code, and before calling any plan or analysis done, use the build-then-break skill and follow it. Match effort to the stakes as the skill describes.
 ```
 
 Start a fresh session afterwards. That's it.
 
-Prefer to do it by hand, or have the zip instead? See [INSTALL.md](INSTALL.md).
+Prefer to install it by hand, or from a zip? See [INSTALL.md](INSTALL.md).
 
 ## What changes
 
@@ -102,11 +96,11 @@ To call it yourself, say "use build-then-break on this".
 
 ## Better with show-then-build
 
-This skill answers "is it built right?". Its partner, [show-then-build](https://github.com/jake-jiffi/show-then-build), answers "what should we build?". It shows you a change on a page you can click before anything is built, then hands the build to this skill.
+This skill answers "is it built right?". Its partner, [show-then-build](https://github.com/jiffi-co/show-then-build), answers "what should we build?". It shows you a change on a page you can click before anything is built, then hands the build to this skill.
 
 Show always leads into break. Break doesn't need show: a typo or a one-line fix comes straight here.
 
-One prompt installs both. It's the first code block on the [show-then-build page](https://github.com/jake-jiffi/show-then-build#install-it-in-a-minute).
+To install both, see the [show-then-build page](https://github.com/jiffi-co/show-then-build#install-it-in-a-minute).
 
 ## Credits
 
