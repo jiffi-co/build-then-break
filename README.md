@@ -112,7 +112,7 @@ One prompt installs both. It's the first code block on the [show-then-build page
 
 - Build rules adapted from [karpathy-guidelines](https://github.com/forrestchang/andrej-karpathy-skills) (MIT), which turns Andrej Karpathy's observations on LLM coding pitfalls into four rules. `references/examples.md` comes from that project.
 - Break drill adapted from the adversarial-review skill in the Clarity starter pack.
-- Put together by [Jake Shelley](https://github.com/jake-jiffi) at [Jiffi](https://www.jiffi.co) for [Clarity Club](https://clarityclub.jiffi.co), where we help business people build with AI properly.
+- Put together by Jake Shelley at [Jiffi](https://www.jiffi.co) for [Clarity Club](https://clarityclub.jiffi.co), where we help business people build with AI properly.
 
 ## Licence
 
