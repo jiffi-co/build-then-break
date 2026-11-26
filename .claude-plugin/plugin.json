@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "build-then-break",
+  "description": "Builds code with restraint, then tries to break it before calling it done. Replaces karpathy-guidelines and adversarial-review.",
+  "author": {
+    "name": "Jake Shelley"
+  },
+  "homepage": "https://github.com/jiffi-co/build-then-break",
+  "repository": "https://github.com/jiffi-co/build-then-break",
+  "license": "MIT",
+  "keywords": [
+    "jiffi",
+    "code",
+    "review",
+    "testing",
+    "adversarial"
+  ]
+}

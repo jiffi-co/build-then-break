@@ -5,7 +5,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0f063c"></a>
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/works%20with-Claude%20Code-599cff">
-  <a href="https://github.com/jake-jiffi/show-then-build"><img alt="Pairs with show-then-build" src="https://img.shields.io/badge/pairs%20with-show--then--build-d5e6ff"></a>
+  <a href="https://github.com/jiffi-co/show-then-build"><img alt="Pairs with show-then-build" src="https://img.shields.io/badge/pairs%20with-show--then--build-d5e6ff"></a>
   <a href="https://clarityclub.jiffi.co"><img alt="From Jiffi Clarity Club" src="https://img.shields.io/badge/from-Jiffi%20Clarity%20Club-fff58a"></a>
 </p>
 
@@ -23,7 +23,7 @@ Open Claude Code and paste this in:
 
 ```text
 Please install the build-then-break skill for Claude Code from this public repo:
-https://github.com/jake-jiffi/build-then-break
+https://github.com/jiffi-co/build-then-break
 
 Install it at the user level so it works in every project, and set it up so you always use it:
 
@@ -102,11 +102,11 @@ To call it yourself, say "use build-then-break on this".
 
 ## Better with show-then-build
 
-This skill answers "is it built right?". Its partner, [show-then-build](https://github.com/jake-jiffi/show-then-build), answers "what should we build?". It shows you a change on a page you can click before anything is built, then hands the build to this skill.
+This skill answers "is it built right?". Its partner, [show-then-build](https://github.com/jiffi-co/show-then-build), answers "what should we build?". It shows you a change on a page you can click before anything is built, then hands the build to this skill.
 
 Show always leads into break. Break doesn't need show: a typo or a one-line fix comes straight here.
 
-One prompt installs both. It's the first code block on the [show-then-build page](https://github.com/jake-jiffi/show-then-build#install-it-in-a-minute).
+One prompt installs both. It's the first code block on the [show-then-build page](https://github.com/jiffi-co/show-then-build#install-it-in-a-minute).
 
 ## Credits
 
